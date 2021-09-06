@@ -1,0 +1,81 @@
+# ui_0    #f9f9f9
+# ui_1    #f9f9ff
+# ui_2    #eff0eb = white
+# ui_3    #e2e4e5
+# ui_4    #a1a6a8
+# ui_5    #848688
+# ui_6    #5e6c70
+# ui_7    #536991
+# ui_8    #606580
+# ui_9    #3a3d4d
+# ui_11   #282a36 = black
+# ui_12   #192224
+
+# cursor_bg #97979b
+
+
+# line_base02 #3a3d4d
+# line_base01 #44485b
+# line_base00 #626784
+# line_base0  #858db5
+# line_base1  #949ecc
+# line_base2  #a8b4ea
+# line_base3  #f1f1f0
+
+"attribute" = { fg = "blue", modifiers = ["bold"] }
+"keyword" = { fg = "magenta", modifiers = ["bold"] }
+"keyword.directive" = "yellow"
+"namespace" = "yellow"
+"punctuation" = "white"
+"punctuation.delimiter" = "yellow"
+"operator" = "magenta"
+"special" = "yellow"
+"property" = "white"
+"variable" = "white"
+"variable.builtin" = "green"
+"type" = { fg = "cyan", modifiers = ["bold"] }
+"constructor" = { fg = "cyan", modifiers = ["bold"] }
+"function" = { fg = "blue", modifiers = ["bold"] }
+"function.macro" = "yellow"
+"function.builtin" = "blue"
+"comment" = { fg = "#606580", modifiers = ["italic"] } # ui_8
+"constant" = "green"
+"string" = "yellow"
+"number" = "yellow"
+"escape" = "yellow"
+"label" = "yellow"
+"module" = "yellow"
+
+"ui.background" = { bg = "#282a36" } # black
+"ui.linenr" = "#606580" # ui_8
+"ui.linenr.selected" = { fg = "#f3f99d" } # yellow
+"ui.statusline" = { fg = "#eff0eb", bg = "#44485b" } # white, line_base01
+"ui.statusline.inactive" = { fg = "#858db5", bg = "#3a3d4d" } # line_base0, ui_9
+"ui.popup" = { bg = "#3a3d4d" } # ui_9
+"ui.window" = { fg = "#626784", modifiers = ["bold"] } # line_base00
+"ui.help" = { bg = "#3a3d4d" } # ui_9
+
+"ui.text" = "white"
+"ui.text.focus" = { fg = "white", modifiers = ["bold"] }
+
+"ui.selection" = { fg = "#606580", bg = "#f9f9ff" } # ui_8, ui_1
+"ui.selection.primary" = { fg = "#192224", bg = "#f9f9ff" } # ui_12, ui_1
+"ui.cursor" = { fg = "#606580", bg = "#97979b" } # ui_8, cursor_bg
+"ui.cursor.primary" = { fg = "#192224", bg = "#97979b" } # ui_12, cursor_bg
+"ui.cursor.match" = { fg = "yellow", bg = "#a1a6a8" } # yellow, ui_4
+"ui.menu.selected" = "green"
+
+"warning" = "cyan"
+"error" = "red"
+"info" = "#5e6c70" # ui_6
+"hint" = "#5e6c70" # ui_6
+
+[palette]
+white = "#eff0eb"
+black = "#282a36"
+red = "#ff5c57"
+green = "#5af78e"
+yellow = "#f3f99d"
+blue = "#57c7ff"
+magenta = "#ff6ac1"
+cyan = "#9aedfe"
