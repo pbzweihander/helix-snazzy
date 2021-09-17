@@ -65,10 +65,11 @@
 "ui.cursor.match" = { fg = "yellow", bg = "#a1a6a8" } # yellow, ui_4
 "ui.menu.selected" = "green"
 
-"warning" = "cyan"
+"warning" = "yellow"
 "error" = "red"
-"info" = "#5e6c70" # ui_6
-"hint" = "#5e6c70" # ui_6
+"info" = "cyan" # ui_6
+"hint" = "green" # ui_6
+"diagnostic" = { bg = "#3a3d4d" } # ui_9
 
 [palette]
 white = "#eff0eb"
