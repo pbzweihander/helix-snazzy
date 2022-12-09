@@ -62,7 +62,9 @@
 "ui.selection.primary" = { fg = "#192224", bg = "#f9f9ff" } # ui_12, ui_1
 "ui.cursor" = { fg = "#606580", bg = "#97979b" } # ui_8, cursor_bg
 "ui.cursor.primary" = { fg = "#192224", bg = "#97979b" } # ui_12, cursor_bg
-"ui.cursor.match" = { fg = "yellow", bg = "#a1a6a8" } # yellow, ui_4
+"ui.cursor.match" = { fg = "yellow", bg = "#848688" } # yellow, ui_9
+"ui.cursorline.primary" = { bg = "#3a3d4d" } # ui_9
+"ui.cursorcolumn.primary" = { bg = "#3a3d4d" } # ui_9
 "ui.menu.selected" = "green"
 
 "warning" = "yellow"
