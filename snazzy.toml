@@ -50,6 +50,9 @@
 "ui.linenr" = "#606580" # ui_8
 "ui.linenr.selected" = { fg = "#f3f99d" } # yellow
 "ui.statusline" = { fg = "#eff0eb", bg = "#44485b" } # white, line_base01
+"ui.statusline.normal" = { fg = "#3a3d4d", bg = "blue" } # line_base02, blue
+"ui.statusline.insert" = { fg = "#3a3d4d", bg = "green" } # line_base02, green
+"ui.statusline.select" = { fg = "#3a3d4d", bg = "magenta" } # line_base02, magenta
 "ui.statusline.inactive" = { fg = "#858db5", bg = "#3a3d4d" } # line_base0, ui_9
 "ui.popup" = { bg = "#3a3d4d" } # ui_9
 "ui.window" = { fg = "#626784", modifiers = ["bold"] } # line_base00
