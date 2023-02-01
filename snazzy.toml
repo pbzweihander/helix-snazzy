@@ -70,6 +70,9 @@
 "ui.cursorcolumn.primary" = { bg = "#3a3d4d" } # ui_9
 "ui.menu.selected" = "green"
 
+"ui.virtual.indent-guide" = "#4d4d4d"
+"ui.virtual.ruler" = { bg = "#3a3d4d" } # ui_9
+
 "warning" = "yellow"
 "error" = "red"
 "info" = "cyan" # ui_6
